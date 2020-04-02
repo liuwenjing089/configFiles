@@ -6,7 +6,7 @@ eureka:
       defaultZone: http://localhost:8001/eureka/
       #defaultZone: http://localhost:8009/eureka/
 spring:
-  #datasource:
+  datasource:
     url: jdbc:mysql://116.62.141.108/jabf_new?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true
     username: root
     password: 123456
